@@ -1,3 +1,3 @@
 # Channels
 
-Channels is an asynchronous programming test written in Go using goroutines and channels.
+Channels is a concurrent programming demo written to learn more about Go, goroutines, and channels.
