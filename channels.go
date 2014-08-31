@@ -12,6 +12,6 @@ func main() {
 		timeChan <- time.Now()
 	}()
 	fmt.Println("waiting for chan...")
-	completedAt := <-timeChan
-	fmt.Println("completedAt:", completedAt)
+	timeFromChan := <-timeChan
+	fmt.Println("time from channel:", timeFromChan)
 }
